@@ -1,6 +1,6 @@
 # UniAPI - Gateway de APIs Open Source
 
-![UniAPI Logo](./assets/logo.svg)
+![UniAPI Logo](./src/assets/logo.svg)
 
 ---
 
