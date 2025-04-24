@@ -4,6 +4,12 @@
 
 ---
 
+## Screenshot
+
+![UniAPI Screenshot](./docs/screenshot1.png)
+
+---
+
 ## 🚧 Status do Projeto: **Em Construção**
 
 O **UniAPI** é um projeto ambicioso que está atualmente em fase inicial de desenvolvimento. Este repositório foi criado para planejar e estruturar o gateway de APIs open source que centralizará o acesso a serviços externos. A ideia principal é permitir que desenvolvedores consumam múltiplas APIs através de um único endpoint, simplificando processos como autenticação, gerenciamento de limites de taxa e documentação.
