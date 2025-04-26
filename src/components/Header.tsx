@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./ui/button";
 import logo from "@/assets/logo.svg";
+import { signIn } from "next-auth/react";
+import { FaGithub } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -30,11 +34,13 @@ const Header = () => {
             Como funciona?
           </Link>
         </nav>
-        <Button variant="ghost" asChild>
-          <Link href="/login">Login</Link>
-        </Button>
-        <Button asChild>
-          <Link href="/register">Cadastre-se</Link>
+        <Button
+          variant="outline"
+          onClick={() => signIn("github", { callbackUrl: "/dashboard" })}
+          className="flex items-center gap-2"
+        >
+          <FaGithub className="w-5 h-5" />
+          Entrar com GitHub
         </Button>
       </div>
     </header>
