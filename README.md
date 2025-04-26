@@ -6,7 +6,7 @@
 
 ## Screenshot
 
-![UniAPI Screenshot](./docs/screenshot1.png)
+![UniAPI Screenshot](./docs/screenshot.png)
 
 ---
 
